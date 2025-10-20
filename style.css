@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+.main{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 550px;
+    width: 400px;
+    margin: 15px auto 3px;
+    font-size: 25px;
+}
+.display{
+    height: 100px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 25px auto auto;
+}
+.first > div{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+.second > div{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    font-weight: bold;
+}
+.third > div{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+.four > div{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
