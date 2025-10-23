@@ -1,15 +1,21 @@
 *{
     background-color: bisque;
+    box-sizing: border-box;
 }
 h1{
     text-align: center;
 }
+body{
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
 .main{
     border: 2px solid black;
     border-radius: 20px;
-    height: 600px;
+    height: 630px;
     width: 400px;
     margin: 15px auto 3px;
+
     background-color: gray;
 }
 .display{
@@ -22,11 +28,20 @@ h1{
     font-size: 50px;
     font-weight: lighter;
 }
-.first > button{
+.icon > button{
     border: 2px solid black;
     border-radius: 20px;
     padding: 25px;
     margin: 18px 0;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: white;
+}
+.first > button{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 18px;
     font-weight: bold;
     font-size: x-large;
     background-color: white;
@@ -52,11 +67,17 @@ h1{
 .four > button{
     border: 2px solid black;
     border-radius: 20px;
-    padding: 25px;
+    padding: 15px 70px;
     margin-bottom: 18px;
     font-weight: bold;
     font-size: x-large;
     background-color: white;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: gray;
 }
 .first{
     display: flex;
@@ -92,12 +113,6 @@ input {
     cursor: url('custom-cursor.png'), auto; 
 }
 
-/* .clear{
-    display: flex;
-    justify-content: center;
-} */
-
-/* Style for the clear button */
 #clear {
     border: 2px solid black;
     font-size: x-large;
@@ -118,4 +133,3 @@ input {
     background-color: rgba(31, 23, 23, 0.8);
     transform: scale(1.05);
 }
-
