@@ -31,6 +31,9 @@ buttons.forEach(button => {
             // Clear button (if you want to add it)
             currentInput = "";
             updateDisplay();
+        } else if(value === '⌫'){
+            currentInput = currentInput.slice(0, -1);
+            updateDisplay();
         } else {
             // Append clicked value
             currentInput += value;
@@ -58,7 +61,7 @@ document.addEventListener('keydown', (e) => {
             display.value = "Error";
             currentInput = "";
         }
-    } else if (e.key === 'Backspace') {
+    } else if (e.key === 'Backspace' || '⌫') {
         currentInput = currentInput.slice(0, -1);
         updateDisplay();
     } else if (e.key === 'Escape') {
